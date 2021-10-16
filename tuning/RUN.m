@@ -1,5 +1,45 @@
 %This function is the main function with adaptations in order to run irace
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Carolina Marcelino, PhD (email: carolimarc@gmail.com)
+% Joao Virgilio de Castro Avancini, Bsc (email: joaovirgilio123@gmail.com)
+% 15th October 2021
+%
+% Solving security constrained optimal power flow problems: 
+% a hybrid evolutionary approach
+%
+% Canonical Differential Evolutionary Particle Swarm Optimization (CDEEPSO) 
+% algorithm as optimization engine to solve test bed declarations V1.1.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Problem extract from:
+% Task Force on Modern Heuristic Optimization Test Beds
+% Working Group on Modern Heuristic Optimization
+% Intelligent Systems Subcommittee
+% Power System Analysis, Computing, and Economic Committee
+%
+% Sebastian Wildenhues (E-Mail: sebastian.wildenhues@uni-due.de)
+% 18th September 2013
+%
+% Application of Modern Heuristic Optimization Algorithms
+% for Solving Optimal Power Flow Problems
+%
+% Test bed declarations V1.0
+%
+% Employing MATPOWER as underlying power flow and basic Particle Swarm
+% Evoluation (PSO) algorithm as optimization engine, you can use the
+% test bed declarations as the template shown below.
+%
+% Results will be buffered and agglomerated automatically for storage to
+% formatted ASCII-files. Refer to problem definitions and implementation
+% guidelines for details.
+%
+% Note:
+% This implementation has been tested using various MATLAB versions and
+% hardware platforms. Feel free to contact us in case of incompatibilities.
+% A MATPOWER installation must be on the MATLAB search path.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function RUN(mutationRate, communicationProbability)
 
 close all
