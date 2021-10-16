@@ -1,3 +1,8 @@
+#C-DEEPSO
+Canonical Differential Evolutionary Particle Swarm Optimization Algorithm with irace package
+
+##Instructions
+
 To execute C-DEEPSO+irace, do the following steps:
 1) Install R version >=3.2.0
 2) Inside R, instal the irace package with the command install.packages("irace")
@@ -7,4 +12,4 @@ To execute C-DEEPSO+irace, do the following steps:
 
 The computational simulation was done using a Intel i9 3.7 Ghz e 64 GB de RAM on Operational System Ubuntu 20.04.2.0LTS computer.
 The code was implemented in Matlab using the MATPOWER package.
-Theintegration of R (4.1.1) and Matlab is done with a Python (3.7) script.
+The integration of R (4.1.1) and Matlab is done with a Python (3.7) script.
