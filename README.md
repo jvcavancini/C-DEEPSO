@@ -1,8 +1,8 @@
-#C-DEEPSO
+# C-DEEPSO
 
 Canonical Differential Evolutionary Particle Swarm Optimization Algorithm with irace package
 
-#Instructions
+## Instructions
 
 To execute C-DEEPSO+irace, do the following steps:
 1) Install R version >=3.2.0
