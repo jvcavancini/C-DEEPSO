@@ -2,6 +2,12 @@
 
 Canonical Differential Evolutionary Particle Swarm Optimization Algorithm with irace package
 
+© When using this solution, you should cite the paper:
+
+Dynamic Electric Dispatch for Wind Power Plants: A New Automatic Controller System Using Evolutionary Algorithms
+
+avaible in:  https://doi.org/10.3390/su132111924
+
 ## Instructions
 
 To execute C-DEEPSO+irace, do the following steps:
